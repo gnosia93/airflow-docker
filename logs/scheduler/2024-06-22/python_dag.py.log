@@ -1885,3 +1885,10 @@ SyntaxError: invalid syntax
 [2024-06-22T10:03:22.944+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:22.943+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-22T10:03:22.955+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:22.955+0000] {dag.py:3954} INFO - Setting next_dagrun for python_dag to 2024-06-23 00:00:00+00:00, run_after=2024-06-24 00:00:00+00:00
 [2024-06-22T10:03:22.963+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_dag.py took 0.052 seconds
+[2024-06-22T10:03:53.315+0000] {processor.py:161} INFO - Started process (PID=4292) to work on /opt/airflow/dags/python_dag.py
+[2024-06-22T10:03:53.316+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/python_dag.py for tasks to queue
+[2024-06-22T10:03:53.318+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:53.317+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/python_dag.py
+[2024-06-22T10:03:53.331+0000] {processor.py:840} INFO - DAG(s) 'python_dag' retrieved from /opt/airflow/dags/python_dag.py
+[2024-06-22T10:03:53.355+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:53.355+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T10:03:53.365+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:53.365+0000] {dag.py:3954} INFO - Setting next_dagrun for python_dag to 2024-06-23 00:00:00+00:00, run_after=2024-06-24 00:00:00+00:00
+[2024-06-22T10:03:53.373+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/python_dag.py took 0.067 seconds

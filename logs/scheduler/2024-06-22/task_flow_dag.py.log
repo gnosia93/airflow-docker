@@ -262,3 +262,10 @@ NameError: name 'hello' is not defined. Did you mean: 'hallo'?
 [2024-06-22T10:03:23.959+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:23.959+0000] {dag.py:3096} INFO - Sync 1 DAGs
 [2024-06-22T10:03:23.969+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:23.968+0000] {dag.py:3954} INFO - Setting next_dagrun for task_flow_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
 [2024-06-22T10:03:23.977+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_flow_dag.py took 0.044 seconds
+[2024-06-22T10:03:54.335+0000] {processor.py:161} INFO - Started process (PID=4293) to work on /opt/airflow/dags/task_flow_dag.py
+[2024-06-22T10:03:54.337+0000] {processor.py:830} INFO - Processing file /opt/airflow/dags/task_flow_dag.py for tasks to queue
+[2024-06-22T10:03:54.338+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:54.337+0000] {dagbag.py:545} INFO - Filling up the DagBag from /opt/airflow/dags/task_flow_dag.py
+[2024-06-22T10:03:54.350+0000] {processor.py:840} INFO - DAG(s) 'task_flow_dag' retrieved from /opt/airflow/dags/task_flow_dag.py
+[2024-06-22T10:03:54.367+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:54.366+0000] {dag.py:3096} INFO - Sync 1 DAGs
+[2024-06-22T10:03:54.377+0000] {logging_mixin.py:188} INFO - [2024-06-22T10:03:54.377+0000] {dag.py:3954} INFO - Setting next_dagrun for task_flow_dag to 2024-06-22 00:00:00+00:00, run_after=2024-06-23 00:00:00+00:00
+[2024-06-22T10:03:54.384+0000] {processor.py:183} INFO - Processing /opt/airflow/dags/task_flow_dag.py took 0.056 seconds
